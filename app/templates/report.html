@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block title %}分析报告 — 人格心理深度分析{% endblock %}
+{% block extra_css %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/report.css') }}">
+{% endblock %}
+
+{% block head_js %}
+<script src="{{ url_for('static', filename='js/chart.umd.min.js') }}"></script>
+{% endblock %}
+
+{% block content %}
+<div class="container report-container">
+    <div id="report-app">
+        <div class="report-loading text-center" style="padding: 60px 0;">
+            <div class="loading-spinner"></div>
+            <p style="margin-top: 16px;">正在生成分析报告...</p>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script src="{{ url_for('static', filename='js/charts.js') }}"></script>
+<script src="{{ url_for('static', filename='js/report.js') }}"></script>
+{% endblock %}

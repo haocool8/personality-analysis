@@ -1,0 +1,71 @@
+{% extends "base.html" %}
+{% block title %}人格心理深度分析 — 首页{% endblock %}
+
+{% block content %}
+<div class="container">
+    <section class="hero text-center" style="padding: 60px 0 40px;">
+        <h1 style="font-size: 2.4rem; color: var(--color-primary); margin-bottom: 16px;">
+            了解真实的自己
+        </h1>
+        <p style="font-size: 1.15rem; color: var(--color-text-secondary); max-width: 640px; margin: 0 auto 32px;">
+            基于大五人格（BFI-2）、黑暗三联征（SD3）、Rosenberg 自尊量表等
+            经科学验证的心理学工具，为你提供一份<strong>客观、深入、不讨好</strong>的人格分析报告。
+        </p>
+        <a href="{{ url_for('assessment.assessment_page') }}" class="btn btn-primary" style="font-size: 1.1rem; padding: 14px 48px;">
+            开始分析
+        </a>
+    </section>
+
+    <section class="card" style="max-width: 720px; margin: 0 auto;">
+        <h2>这份分析会告诉你什么</h2>
+        <ul style="list-style: none; padding: 0;">
+            <li style="padding: 12px 0; border-bottom: 1px solid var(--color-border);">
+                <strong>大五人格全景</strong> — 开放性、尽责性、外倾性、宜人性、神经质的详细剖面，含 15 个侧面的精细分析
+            </li>
+            <li style="padding: 12px 0; border-bottom: 1px solid var(--color-border);">
+                <strong>社会适应性评估</strong> — 基于黑暗三联征检测自恋、马基雅维利主义、精神病态倾向
+            </li>
+            <li style="padding: 12px 0; border-bottom: 1px solid var(--color-border);">
+                <strong>自尊与控制点</strong> — 你的自我价值感水平，以及你将成败归因于自身还是外部环境
+            </li>
+            <li style="padding: 12px 0; border-bottom: 1px solid var(--color-border);">
+                <strong>依恋风格</strong> — 你在亲密关系中的行为模式（焦虑/回避双维度）
+            </li>
+            <li style="padding: 12px 0; border-bottom: 1px solid var(--color-border);">
+                <strong>认知风格</strong> — 分析型 vs 直觉型思维倾向
+            </li>
+            <li style="padding: 12px 0;">
+                <strong>跨维度模式分析</strong> — 多种特质的组合可能意味着什么，以及潜在的风险
+            </li>
+        </ul>
+    </section>
+
+    <section class="card" style="max-width: 720px; margin: 24px auto;">
+        <h2>这不是什么</h2>
+        <ul style="list-style: none; padding: 0;">
+            <li style="padding: 12px 0; border-bottom: 1px solid var(--color-border);">
+                不是 MBTI 式的<strong>娱乐分类</strong> — 我们不给你贴一个"提倡者"或"指挥官"的标签了事
+            </li>
+            <li style="padding: 12px 0; border-bottom: 1px solid var(--color-border);">
+                不是<strong>一味讨好</strong>的测试 — 如果你的数据显示自恋倾向或低宜人性，我们会直接告诉你
+            </li>
+            <li style="padding: 12px 0;">
+                不是<strong>临床诊断</strong> — 本系统不替代心理咨询或精神科诊断，如有困扰请寻求专业帮助
+            </li>
+        </ul>
+    </section>
+
+    <section style="max-width: 720px; margin: 0 auto; padding: 40px 20px; text-align: center;">
+        <h2 style="margin-bottom: 12px;">预计时间</h2>
+        <p style="color: var(--color-text-secondary); margin-bottom: 8px;">
+            核心评估约 <strong>70 题</strong>（约 12-15 分钟）
+        </p>
+        <p style="color: var(--color-text-secondary); margin-bottom: 24px;">
+            完整评估含扩展量表约 <strong>130-160 题</strong>（约 20-25 分钟）
+        </p>
+        <p style="font-size: 0.9rem; color: var(--color-text-secondary);">
+            你可以随时暂停，系统会自动保存进度。
+        </p>
+    </section>
+</div>
+{% endblock %}

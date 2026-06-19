@@ -1,0 +1,122 @@
+{
+  "instrument_id": "rotter_ie",
+  "name": "控制点量表 (Rotter's Locus of Control Scale - 简版)",
+  "version": "1.0",
+  "citation": "Rotter, J. B. (1966). Generalized expectancies for internal versus external control of reinforcement. Psychological Monographs, 80(1), 1-28.",
+  "response_scale": {
+    "type": "forced_choice",
+    "points": 2,
+    "labels": {
+      "A": "选项A",
+      "B": "选项B"
+    }
+  },
+  "instructions": "以下每题有两个选项，请选择你更认同的一个。有时你可能觉得两个都不完全同意，但请选出最接近你看法的那一个。",
+  "items": [
+    {
+      "id": "rotter_01",
+      "text_a": "人们生活中发生的不幸，很大程度上是因为他们自己的错误。",
+      "text_b": "生活中许多不愉快的事情，部分是由于运气不好。",
+      "external_choice": "B",
+      "order": 1
+    },
+    {
+      "id": "rotter_02",
+      "text_a": "人们感到孤独，是因为他们自己不去努力与人交往。",
+      "text_b": "努力让别人喜欢自己是没用的——别人喜不喜欢你，你控制不了。",
+      "external_choice": "B",
+      "order": 2
+    },
+    {
+      "id": "rotter_03",
+      "text_a": "成功主要靠努力和能力。",
+      "text_b": "成功很大程度上取决于在正确的时间出现在正确的地方。",
+      "external_choice": "B",
+      "order": 3
+    },
+    {
+      "id": "rotter_04",
+      "text_a": "大多数人的不幸是他们自己选择的结果。",
+      "text_b": "人的命运很大程度上由不可控的外部力量决定。",
+      "external_choice": "B",
+      "order": 4
+    },
+    {
+      "id": "rotter_05",
+      "text_a": "谋事在人，成事在天。",
+      "text_b": "不试一下你永远不知道自己能做成什么。",
+      "external_choice": "A",
+      "order": 5
+    },
+    {
+      "id": "rotter_06",
+      "text_a": "只要认真计划，几乎没有什么事情是做不成的。",
+      "text_b": "过度计划是没用的，因为事情的发展往往取决于运气。",
+      "external_choice": "B",
+      "order": 6
+    },
+    {
+      "id": "rotter_07",
+      "text_a": "成绩和努力成正比。",
+      "text_b": "很多时候考试结果取决于老师的心情或题目是否恰好是你熟悉的。",
+      "external_choice": "B",
+      "order": 7
+    },
+    {
+      "id": "rotter_08",
+      "text_a": "通过努力工作和坚持，任何人都能提升自己的社会地位。",
+      "text_b": "社会地位主要由家庭背景和人脉决定，个人努力的作用有限。",
+      "external_choice": "B",
+      "order": 8
+    },
+    {
+      "id": "rotter_09",
+      "text_a": "如果我下定决心，几乎可以做成任何合理的事。",
+      "text_b": "很多时候我想做某事却因为外界因素而无法实现。",
+      "external_choice": "B",
+      "order": 9
+    },
+    {
+      "id": "rotter_10",
+      "text_a": "相信命运的人最终会错过很多改变的机会。",
+      "text_b": "有些事是注定的，再怎么努力也改变不了。",
+      "external_choice": "B",
+      "order": 10
+    },
+    {
+      "id": "rotter_11",
+      "text_a": "一个人的成就取决于他自己。",
+      "text_b": "很多时候，成功或失败是环境因素造成的。",
+      "external_choice": "B",
+      "order": 11
+    },
+    {
+      "id": "rotter_12",
+      "text_a": "普通人只要愿意努力，就能影响社会。",
+      "text_b": "世界是由少数有权势的人控制的，小人物无能为力。",
+      "external_choice": "B",
+      "order": 12
+    },
+    {
+      "id": "rotter_13",
+      "text_a": "人生走向掌握在自己手中。",
+      "text_b": "大部分人没有意识到自己的生活被偶然事件左右的程度。",
+      "external_choice": "B",
+      "order": 13
+    },
+    {
+      "id": "rotter_14",
+      "text_a": "祸福相依，是人生常态。",
+      "text_b": "大多数不幸源自能力不足、无知或懒惰。",
+      "external_choice": "A",
+      "order": 14
+    },
+    {
+      "id": "rotter_15",
+      "text_a": "领导者的成功取决于他的决策和执行力。",
+      "text_b": "领导者能上位，很大程度上是因为他们运气好，刚好在对的时间出现在对的位置。",
+      "external_choice": "B",
+      "order": 15
+    }
+  ]
+}

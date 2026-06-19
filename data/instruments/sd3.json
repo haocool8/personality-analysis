@@ -1,0 +1,52 @@
+{
+  "instrument_id": "sd3",
+  "name": "短式黑暗三联征量表 (Short Dark Triad)",
+  "version": "1.0",
+  "citation": "Jones, D. N., & Paulhus, D. L. (2014). Introducing the Short Dark Triad (SD3): A brief measure of dark personality traits. Assessment, 21(1), 28-41.",
+  "response_scale": {
+    "type": "likert",
+    "points": 5,
+    "labels": {
+      "1": "完全不同意",
+      "2": "有点不同意",
+      "3": "中立",
+      "4": "有点同意",
+      "5": "完全同意"
+    }
+  },
+  "instructions": "以下是一些关于态度和行为的陈述。请诚实地评价你对每条陈述的同意程度。这些题目涉及一些社会不太赞许的特质，请尽量如实作答。",
+  "domains": {
+    "narcissism": {"name": "自恋", "abbreviation": "NARC"},
+    "machiavellianism": {"name": "马基雅维利主义", "abbreviation": "MACH"},
+    "psychopathy": {"name": "精神病态", "abbreviation": "PSYC"}
+  },
+  "items": [
+    {"id": "sd3_n_01", "text": "我倾向于期望别人赞赏我。", "domain": "narcissism", "reverse_keyed": false, "order": 1},
+    {"id": "sd3_m_01", "text": "操纵别人是达成目标的好方法。", "domain": "machiavellianism", "reverse_keyed": false, "order": 2},
+    {"id": "sd3_p_01", "text": "我喜欢报复那些得罪我的人。", "domain": "psychopathy", "reverse_keyed": false, "order": 3},
+    {"id": "sd3_n_02", "text": "我是一个天生的领导者。", "domain": "narcissism", "reverse_keyed": false, "order": 4},
+    {"id": "sd3_m_02", "text": "为了避免冲突，我会隐瞒真相。", "domain": "machiavellianism", "reverse_keyed": false, "order": 5},
+    {"id": "sd3_p_02", "text": "我对自己的行为很少感到内疚。", "domain": "psychopathy", "reverse_keyed": false, "order": 6},
+    {"id": "sd3_n_03", "text": "我相信自己比别人更优秀。", "domain": "narcissism", "reverse_keyed": false, "order": 7},
+    {"id": "sd3_m_03", "text": "为了得到想要的东西，说好听话是有用的策略。", "domain": "machiavellianism", "reverse_keyed": false, "order": 8},
+    {"id": "sd3_p_03", "text": "我不太关心我的行为是否道德。", "domain": "psychopathy", "reverse_keyed": false, "order": 9},
+    {"id": "sd3_n_04", "text": "我喜欢成为众人关注的焦点。", "domain": "narcissism", "reverse_keyed": false, "order": 10},
+    {"id": "sd3_m_04", "text": "大多数人是可以被操纵的。", "domain": "machiavellianism", "reverse_keyed": false, "order": 11},
+    {"id": "sd3_p_04", "text": "我倾向于冷漠或麻木不仁。", "domain": "psychopathy", "reverse_keyed": false, "order": 12},
+    {"id": "sd3_n_05", "text": "我值得拥有最好的东西。", "domain": "narcissism", "reverse_keyed": false, "order": 13},
+    {"id": "sd3_m_05", "text": "在竞争中，为了成功可以不择手段。", "domain": "machiavellianism", "reverse_keyed": false, "order": 14},
+    {"id": "sd3_p_05", "text": "别人说我做事冲动、不考虑后果。", "domain": "psychopathy", "reverse_keyed": false, "order": 15},
+    {"id": "sd3_n_06", "text": "我希望别人把我当作权威人物。", "domain": "narcissism", "reverse_keyed": false, "order": 16},
+    {"id": "sd3_m_06", "text": "说实话有时会给自己惹麻烦。", "domain": "machiavellianism", "reverse_keyed": false, "order": 17},
+    {"id": "sd3_p_06", "text": "我不害怕从事危险的活动。", "domain": "psychopathy", "reverse_keyed": false, "order": 18},
+    {"id": "sd3_n_07", "text": "我喜欢向别人展示我的成就。", "domain": "narcissism", "reverse_keyed": false, "order": 19},
+    {"id": "sd3_m_07", "text": "制定计划时，我考虑谁会对我有帮助。", "domain": "machiavellianism", "reverse_keyed": false, "order": 20},
+    {"id": "sd3_p_07", "text": "我在乎道德标准对我的约束。", "domain": "psychopathy", "reverse_keyed": true, "order": 21},
+    {"id": "sd3_n_08", "text": "我觉得自己有特殊的地位和重要性。", "domain": "narcissism", "reverse_keyed": false, "order": 22},
+    {"id": "sd3_m_08", "text": "用计谋让别人按我的方式做事是明智的。", "domain": "machiavellianism", "reverse_keyed": false, "order": 23},
+    {"id": "sd3_p_08", "text": "我对别人的痛苦不太敏感。", "domain": "psychopathy", "reverse_keyed": false, "order": 24},
+    {"id": "sd3_n_09", "text": "我善于利用别人来达到自己的目的。", "domain": "narcissism", "reverse_keyed": false, "order": 25},
+    {"id": "sd3_m_09", "text": "我倾向于在别人不知情的情况下施加影响。", "domain": "machiavellianism", "reverse_keyed": false, "order": 26},
+    {"id": "sd3_p_09", "text": "别人说我缺乏自控力，想到什么做什么。", "domain": "psychopathy", "reverse_keyed": false, "order": 27}
+  ]
+}

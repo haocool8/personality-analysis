@@ -1,0 +1,60 @@
+{
+  "instrument_id": "crt",
+  "name": "认知反射测试 (Cognitive Reflection Test - Extended)",
+  "version": "1.0",
+  "citation": "Frederick, S. (2005). Cognitive reflection and decision making. Journal of Economic Perspectives, 19(4), 25-42.",
+  "response_scale": {
+    "type": "open_text",
+    "points": 0,
+    "labels": {}
+  },
+  "instructions": "以下是一些简短的问题。请凭你的第一反应作答——不要在网上搜索答案。这不是智商测试，而是了解你的思维风格。每个问题都有一个确定的正确答案。",
+  "items": [
+    {
+      "id": "crt_01",
+      "text": "一个球棒和一个球一共1.10元。球棒比球贵1.00元。球多少钱？",
+      "correct_answer": "0.05",
+      "intuitive_answer": "0.10",
+      "order": 1
+    },
+    {
+      "id": "crt_02",
+      "text": "如果5台机器5分钟能生产5个零件，那么100台机器生产100个零件需要多少分钟？",
+      "correct_answer": "5",
+      "intuitive_answer": "100",
+      "order": 2
+    },
+    {
+      "id": "crt_03",
+      "text": "湖里有一片睡莲。每天睡莲的面积翻一倍。如果睡莲覆盖整个湖需要48天，那么覆盖湖的一半需要多少天？",
+      "correct_answer": "47",
+      "intuitive_answer": "24",
+      "order": 3
+    },
+    {
+      "id": "crt_04",
+      "text": "小明在班级跑步比赛中获得第三名，超过第二名后他是第几名？",
+      "correct_answer": "2",
+      "intuitive_answer": "1",
+      "order": 4
+    },
+    {
+      "id": "crt_05",
+      "text": "一个农民有15头牛，除了8头以外其余都死了。还剩几头牛？",
+      "correct_answer": "8",
+      "order": 5
+    },
+    {
+      "id": "crt_06",
+      "text": "小李比小张跑得快，小张比小王跑得快。谁跑得最慢？",
+      "correct_answer": "小王",
+      "order": 6
+    },
+    {
+      "id": "crt_07",
+      "text": "父亲的年龄是儿子的3倍。10年后，父亲只有儿子年龄的2倍。儿子现在几岁？",
+      "correct_answer": "10",
+      "order": 7
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+{% block title %}心理评估 — 人格心理深度分析{% endblock %}
+{% block extra_css %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/assessment.css') }}">
+{% endblock %}
+
+{% block content %}
+<div class="container assessment-container">
+    <div id="assessment-app">
+        <!-- 进度条 -->
+        <div class="progress-bar-wrapper">
+            <div class="progress-info">
+                <span id="phase-label">第一阶段：人格基础画像</span>
+                <span id="progress-text">0 / 0</span>
+            </div>
+            <div class="progress-bar">
+                <div class="progress-fill" id="progress-fill" style="width: 0%;"></div>
+            </div>
+        </div>
+
+        <!-- 题目区域 -->
+        <div class="question-card card" id="question-card">
+            <div class="question-instructions" id="question-instructions"></div>
+            <div class="question-text" id="question-text"></div>
+            <div class="question-options" id="question-options"></div>
+            <div class="question-actions">
+                <button class="btn btn-secondary" id="btn-prev" style="display:none;">上一题</button>
+                <button class="btn btn-primary" id="btn-next" disabled>下一题</button>
+            </div>
+        </div>
+
+        <!-- 阶段转换提示 -->
+        <div class="phase-transition card text-center" id="phase-transition" style="display:none;">
+            <h2 id="phase-transition-title"></h2>
+            <p id="phase-transition-desc"></p>
+            <button class="btn btn-primary" id="btn-continue">继续</button>
+        </div>
+
+        <!-- 完成提示 -->
+        <div class="completion-message card text-center" id="completion-message" style="display:none;">
+            <h2>评估完成</h2>
+            <p>你已完成所有题目。系统正在生成你的个人分析报告。</p>
+            <div class="loading-spinner"></div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script src="{{ url_for('static', filename='js/assessment.js') }}"></script>
+{% endblock %}

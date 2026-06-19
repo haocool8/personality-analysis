@@ -1,0 +1,46 @@
+{
+  "instrument_id": "ecr_r",
+  "name": "亲密关系体验量表 (Experiences in Close Relationships-Revised)",
+  "version": "1.0",
+  "citation": "Fraley, R. C., Waller, N. G., & Brennan, K. A. (2000). An item response theory analysis of self-report measures of adult attachment. Journal of Personality and Social Psychology, 78(2), 350-365.",
+  "response_scale": {
+    "type": "likert",
+    "points": 7,
+    "labels": {
+      "1": "完全不同意",
+      "4": "中立",
+      "7": "完全同意"
+    }
+  },
+  "instructions": "以下陈述涉及你在亲密关系（恋爱关系）中的一般感受和体验。如果你从未有过恋爱关系，请根据你在最亲密的人际关系中的体验作答。请诚实评价你的同意程度。",
+  "domains": {
+    "anxiety": {"name": "依恋焦虑", "abbreviation": "ANX"},
+    "avoidance": {"name": "依恋回避", "abbreviation": "AVD"}
+  },
+  "items": [
+    {"id": "ecr_anx_01", "text": "我担心伴侣不像我在乎他/她那样在乎我。", "subscale": "anxiety", "reverse_keyed": false, "order": 1},
+    {"id": "ecr_avd_01", "text": "我不喜欢向伴侣展示内心深处的感受。", "subscale": "avoidance", "reverse_keyed": false, "order": 2},
+    {"id": "ecr_anx_02", "text": "我经常担心伴侣不想和我在一起了。", "subscale": "anxiety", "reverse_keyed": false, "order": 3},
+    {"id": "ecr_avd_02", "text": "在需要的时候向伴侣求助是有帮助的。", "subscale": "avoidance", "reverse_keyed": true, "order": 4},
+    {"id": "ecr_anx_03", "text": "我担心伴侣一旦了解真实的我就会不再喜欢我。", "subscale": "anxiety", "reverse_keyed": false, "order": 5},
+    {"id": "ecr_avd_03", "text": "当伴侣想跟我很亲近时，我会感到不舒服。", "subscale": "avoidance", "reverse_keyed": false, "order": 6},
+    {"id": "ecr_anx_04", "text": "当伴侣不在身边时，我担心他/她可能对别人产生兴趣。", "subscale": "anxiety", "reverse_keyed": false, "order": 7},
+    {"id": "ecr_avd_04", "text": "我会跟伴侣讲我内心的想法和感受。", "subscale": "avoidance", "reverse_keyed": true, "order": 8},
+    {"id": "ecr_anx_05", "text": "我对伴侣的感情常常忽冷忽热。", "subscale": "anxiety", "reverse_keyed": false, "order": 9},
+    {"id": "ecr_avd_05", "text": "我觉得与伴侣亲近是一件舒服的事情。", "subscale": "avoidance", "reverse_keyed": true, "order": 10},
+    {"id": "ecr_anx_06", "text": "我需要伴侣反复确认对我的爱。", "subscale": "anxiety", "reverse_keyed": false, "order": 11},
+    {"id": "ecr_avd_06", "text": "我在情感上依赖伴侣让我感到不舒服。", "subscale": "avoidance", "reverse_keyed": false, "order": 12},
+    {"id": "ecr_anx_07", "text": "当伴侣对我忽冷忽热时，我会非常痛苦。", "subscale": "anxiety", "reverse_keyed": false, "order": 13},
+    {"id": "ecr_avd_07", "text": "我很容易与伴侣建立情感上的亲密连接。", "subscale": "avoidance", "reverse_keyed": true, "order": 14},
+    {"id": "ecr_anx_08", "text": "我对被拒绝或抛弃的迹象非常敏感。", "subscale": "anxiety", "reverse_keyed": false, "order": 15},
+    {"id": "ecr_avd_08", "text": "即使与伴侣在一起时心理上我也保持距离。", "subscale": "avoidance", "reverse_keyed": false, "order": 16},
+    {"id": "ecr_anx_09", "text": "当伴侣批评我时，我会觉得整个世界都塌了。", "subscale": "anxiety", "reverse_keyed": false, "order": 17},
+    {"id": "ecr_avd_09", "text": "我会很自然地向伴侣寻求建议和支持。", "subscale": "avoidance", "reverse_keyed": true, "order": 18},
+    {"id": "ecr_anx_10", "text": "我常常希望伴侣对我的感情像我对他的/她的一样强烈。", "subscale": "anxiety", "reverse_keyed": false, "order": 19},
+    {"id": "ecr_avd_10", "text": "过度亲密让我感到被困住了。", "subscale": "avoidance", "reverse_keyed": false, "order": 20},
+    {"id": "ecr_anx_11", "text": "我的关系焦虑有时会变成愤怒或控制行为。", "subscale": "anxiety", "reverse_keyed": false, "order": 21},
+    {"id": "ecr_avd_11", "text": "我重视独立胜过亲密关系。", "subscale": "avoidance", "reverse_keyed": false, "order": 22},
+    {"id": "ecr_anx_12", "text": "单身对我来说是非常可怕的事情。", "subscale": "anxiety", "reverse_keyed": false, "order": 23},
+    {"id": "ecr_avd_12", "text": "我不习惯有人太靠近我的内心世界。", "subscale": "avoidance", "reverse_keyed": false, "order": 24}
+  ]
+}

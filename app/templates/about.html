@@ -1,0 +1,70 @@
+{% extends "base.html" %}
+{% block title %}科学依据 — 人格心理深度分析{% endblock %}
+
+{% block content %}
+<div class="container" style="max-width: 800px;">
+    <h1 style="font-size: 2rem; color: var(--color-primary); margin-bottom: 24px;">科学依据与方法论</h1>
+
+    <div class="card">
+        <h2>大五人格模型 (Big Five / OCEAN)</h2>
+        <p style="color: var(--color-text-secondary); margin-bottom: 16px;">
+            大五人格是当代学术心理学界<strong>共识性</strong>的人格结构模型。与 MBTI 不同，
+            大五人格的研究基于数十年的因素分析研究，具有跨文化一致性和良好的预测效度。
+        </p>
+        <p style="color: var(--color-text-secondary);">
+            本系统采用的 <strong>BFI-2（Big Five Inventory-2）</strong>由 Soto & John (2017)
+            开发，是当前最经心理测量学检验的大五量表之一，含 60 个项目，覆盖
+            5 个维度下的 15 个侧面。
+        </p>
+        <p style="margin-top: 12px; font-size: 0.85rem;">
+            参考文献: Soto, C. J., & John, O. P. (2017). <em>Journal of Personality and Social Psychology</em>, 113(1), 117-143.
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>黑暗三联征 (Dark Triad / SD3)</h2>
+        <p style="color: var(--color-text-secondary);">
+            由 Jones & Paulhus (2014) 开发的 Short Dark Triad (SD3) 量表测量三种
+            社会不适应的特质：<strong>自恋</strong>（夸大的自我重要感）、<strong>马基雅维利主义</strong>
+            （策略性操纵他人）、<strong>精神病态</strong>（冲动与冷漠）。引入此量表是为了
+            确保分析报告的客观性——我们不回避负面特质。
+        </p>
+        <p style="margin-top: 12px; font-size: 0.85rem;">
+            参考文献: Jones, D. N., & Paulhus, D. L. (2014). <em>Assessment</em>, 21(1), 28-41.
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>Rosenberg 自尊量表 (RSES)</h2>
+        <p style="color: var(--color-text-secondary);">
+            由 Rosenberg (1965) 开发，是全球使用最广泛的自尊测量工具。10 个项目，
+            4 点量表，具有跨文化、跨年代的稳定性。用于评估个体的整体自我价值感。
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>为什么不使用 MBTI</h2>
+        <p style="color: var(--color-text-secondary);">
+            MBTI（Myers-Briggs Type Indicator）尽管流行，但存在严重的科学问题：
+        </p>
+        <ul style="color: var(--color-text-secondary); margin-top: 8px; padding-left: 20px;">
+            <li>重测信度低（几周内重测，一致性仅 r=0.50-0.70）</li>
+            <li>将连续的维度强行二分为"类型"，丢失大量信息</li>
+            <li>缺乏预测效度——MBTI 类型几乎不能预测真实世界的行为或成就</li>
+            <li>由非心理学家开发，理论基础未经实证检验</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>免责声明</h2>
+        <p style="color: var(--color-text-secondary);">
+            本系统提供的分析结果仅供自我了解和个人发展参考。<strong>不构成任何形式的临床诊断</strong>。
+            如果你正经历心理困扰，请寻求持证心理咨询师或精神科医生的帮助。
+        </p>
+        <p style="color: var(--color-text-secondary); margin-top: 8px;">
+            常模参考数据来自国际已发表研究。由于常模样本的来源主要为西方人群，
+            与中国人群可能存在系统性差异，百分位比较仅供参考。
+        </p>
+    </div>
+</div>
+{% endblock %}
